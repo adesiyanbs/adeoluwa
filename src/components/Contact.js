@@ -10,9 +10,9 @@ function Contact() {
                          to get in touch send a mail and we'll begin work!
                     </p>
                     <div className="socials">
-                        <a href="">g</a>
-                        <a href="">t</a>
-                        <a href="">i</a>
+                        <a href="#">g</a>
+                        <a href="#">t</a>
+                        <a href="#">i</a>
                     </div>
                     <a href="minneade@gmail.com">say hello</a>
                 </div>
