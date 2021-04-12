@@ -1,0 +1,44 @@
+import React from 'react'
+import {Helmet} from 'react-helmet'
+import '../styles/home.css'
+
+function Home() {
+    return (
+        <div>
+            <Helmet>
+                <title>Adeoluwa Siyanbade</title>
+            </Helmet>
+            <nav>
+                <ul>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                </ul>
+            </nav>
+            <section className="lnd-label">
+            <svg id="circle" xmlns="http://www.w3.org/2000/svg"   viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-triangle"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path></svg>
+                <div className="label-ctn">
+                    <h1>Design . <span>Development</span></h1>
+                    <div className="skills">
+                        <h4>HTML</h4>
+                        <h4>.</h4>
+                        <h4>CSS</h4>
+                        <h4>.</h4>
+                        <h4>JavaScript</h4>
+                    </div>
+                </div>
+            </section>
+            <section className="name">
+                <div className="name_ctn">
+                    <h2>
+                        <span>Hello,</span> <br/>
+                        I'm Adeoluwa Siyanbade
+                    </h2>
+                    <button>CONTACT ME</button>
+                </div>
+            </section>
+        </div>
+    )
+}
+
+export default Home;

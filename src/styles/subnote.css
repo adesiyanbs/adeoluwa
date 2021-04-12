@@ -1,0 +1,21 @@
+body{
+    color: white;
+}
+.sub{
+    /* background: blue; */
+    width: 50%;
+    height: auto;
+    padding-top: 150px;
+}
+.sub>p{
+    font-size: 23px;
+    margin-left: 14%;
+    font-weight: 350;
+    /* background: red;  */
+}
+.one{
+    color: #7AE582;
+}
+.two{
+    color: #9FFFCB;
+}

@@ -1,0 +1,154 @@
+body{
+    background: #080708;
+    width: 100%;
+    height: 80vh;
+
+}
+
+
+nav{
+    /* float: right;
+    color: white;
+    margin-right: 40px;
+    margin-top: 10px; */
+    position: fixed;
+    background-color: #0807085e;
+    backdrop-filter: blur(5px);
+    float: right;
+    width: 100%;
+    z-index: 2;
+}
+nav>ul{
+    display: flex;
+    float: right;
+}
+nav>ul>li{
+    text-decoration: none;
+    margin-right: 20px;
+    list-style: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+nav>ul>li:hover{
+    color: black;
+    font-weight: 600;
+    background: #7AE582;
+    /* border: 2px solid #7AE582; */
+    padding: 5px 10px;
+}
+.lnd-label{
+    color: white;
+    padding-top: 50px;
+    /* background-color: blue; */
+    width: 100%;
+    height: 50vh;
+}
+.label-ctn{
+    /* background: red; */
+    width: 90%;
+    height: 60%;
+    margin-top: -20px;
+    margin: auto;
+    text-align: center;
+    /* padding-top: -10px; */
+}
+.label-ctn>h1{
+    font-size: 7rem;
+    line-height: 1;
+}
+.label-ctn>h1>span{
+    color: #7AE582;
+}
+.skills{
+    display: flex;
+    /* margin-top: -100px; */
+    width: 180px;
+    /* background: purple; */
+    margin: auto;
+    margin-top: -7%;
+}
+.skills>h4{
+    margin-right: 20px;
+    transition: transform .4s ease-in-out;
+    
+}
+.skills>h4:hover{
+    transform: scale(1.1)
+}
+.skills>h4:nth-child(1){
+    color: #7AE582;
+}
+.skills>h4:nth-child(5){
+    color: #7AE582;
+}
+h3{
+    color: white;
+}
+.name{
+    /* background: blue; */
+    width: 100%;
+    height: 38vh;
+    padding-top: 20px;
+}
+.name_ctn{
+    /* background: red; */
+    width: 85%;
+    height: 70%;
+    margin: auto;
+}
+.name_ctn>h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+.name_ctn>h2>span{
+    color: #7AE582;
+
+}
+.name_ctn>button{
+    width: 120px;
+    height: 40px;
+    background: transparent;
+    color: #93e799;
+    border: 2px solid #7AE582;
+    margin-top: -30px;
+    transition:0.8s;
+    outline: none;
+    cursor: pointer;
+}
+.name_ctn>button:hover{
+    background: #7AE582;
+    color: #080708;
+    font-weight: bold;
+}
+#circle{
+    width: 30px;
+    position: absolute;
+    top: 180px;
+    left: 330px;
+    animation: circle 1s infinite linear;
+    transform-origin: center;
+    transform-box:fill-box ;
+    color: #7AE582;
+}
+@keyframes circle{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+@media screen and (max-width: 480px){
+    nav{
+        float: initial;
+        /* background: blue; */
+        margin: auto;
+        width: 60%;
+        text-align: center;
+        /* margin-right: initial; */
+    }
+    .label-ctn>h1{
+        font-size: 55px;
+    }
+}
