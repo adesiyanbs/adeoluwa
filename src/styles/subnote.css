@@ -3,13 +3,27 @@ body{
 }
 .sub{
     /* background: blue; */
-    width: 50%;
+    width: 100%;
     height: auto;
     padding-top: 150px;
+    
 }
-.sub>p{
-    font-size: 23px;
-    margin-left: 14%;
+.sub_container{
+    width: 85%;
+    /* background: pink; */
+    height: auto;
+    display: flex;
+    margin: auto;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.left{
+    /* background: red; */
+    width: 50%;    
+}
+.left>p{
+    font-size: 20px;
+    /* margin-left: 15%; */
     font-weight: 350;
     /* background: red;  */
 }
@@ -18,4 +32,12 @@ body{
 }
 .two{
     color: #9FFFCB;
+}
+.right{
+    /* background: purple; */
+    width: 50%;
+}
+.right>img{
+    width: 60%;
+    float: right;
 }

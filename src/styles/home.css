@@ -13,6 +13,7 @@ nav{
     margin-top: 10px; */
     position: fixed;
     background-color: #0807085e;
+    /* background: pink; */
     backdrop-filter: blur(5px);
     float: right;
     width: 100%;
@@ -38,10 +39,10 @@ nav>ul>li:hover{
 }
 .lnd-label{
     color: white;
-    padding-top: 50px;
+    /* padding-top: 50px; */
     /* background-color: blue; */
     width: 100%;
-    height: 50vh;
+    height: auto;
 }
 .label-ctn{
     /* background: red; */
@@ -89,6 +90,7 @@ h3{
     width: 100%;
     height: 38vh;
     padding-top: 20px;
+    margin-top: -15px;
 }
 .name_ctn{
     /* background: red; */
@@ -123,20 +125,38 @@ h3{
 }
 #circle{
     width: 30px;
-    position: absolute;
+    position: relative;
     top: 180px;
     left: 330px;
-    animation: circle 1s infinite linear;
+    animation: craft 1s infinite linear;
     transform-origin: center;
     transform-box:fill-box ;
     color: #7AE582;
 }
-@keyframes circle{
+#plus{
+    width: 30px;
+    position: absolute;
+    top: 380px;
+    right: 330px;
+    color: #7AE582;
+    animation: plus 1s infinite linear;
+    transform-origin: center;
+    transform-box:fill-box ;
+}
+@keyframes plus{
     from{
-        transform: rotateZ(0deg);
+        transform: rotateZ(0deg)
     }
     to{
-        transform: rotateZ(360deg);
+        transform: rotateZ(360deg)
+    }
+}
+@keyframes craft{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
     }
 }
 @media screen and (max-width: 480px){
