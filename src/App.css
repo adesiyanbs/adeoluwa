@@ -36,6 +36,10 @@
     transform: rotate(360deg);
   }
 } */
+*{
+  font-family: 'Montserrat', sans-serif;
+}
 html{
   scroll-behavior: smooth;
 }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
