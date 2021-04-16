@@ -25,7 +25,7 @@
 }
 .socials img{
     filter: invert(81%) sepia(12%) saturate(1619%) hue-rotate(71deg) brightness(97%) contrast(93%);
-    width: 40px;
+    width: 20px;
 }
 .socials{
     text-align: center;

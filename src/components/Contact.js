@@ -16,7 +16,7 @@ function Contact() {
                     </p>
                     </div>
                     <div className="socials">
-                        <a href="https://github.com/adesiyanbs"><img src={git} alt="github profile"/></a>
+                        <a href="https://github.com/adesiyanbs"><img src={git} alt="github profile"/></a> &nbsp;
                         <a href="https://twitter.com/commodore_ade"><img src={twitter} alt=" twitter account"/></a>
                     </div>
                     <a className="hello" href="mailto:minneade@gmail.com">Mail me!</a>
