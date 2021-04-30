@@ -171,4 +171,16 @@ h3{
     .label-ctn>h1{
         font-size: 55px;
     }
+    nav{
+        padding-left: 80px;
+        
+    }
+    nav>ul{
+        justify-content: center;
+        align-content: center;
+    }
+    .skills>h4{
+        margin-left: -10px;
+    }
+    
 }

@@ -22,6 +22,11 @@ function Contact() {
                     <a className="hello" href="mailto:minneade@gmail.com">Mail me!</a>
                 </div>
             </section>
+            <section className="footer">
+                <div className="foot-cnt">
+                    <h4>Copyright 2021 by Ade</h4>
+                </div>
+            </section>
         </div>
     )
 }
