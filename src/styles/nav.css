@@ -1,0 +1,31 @@
+nav{
+    /* float: right;
+    color: white;
+    margin-right: 40px;
+    margin-top: 10px; */
+    position: fixed;
+    background-color: #0807085e;
+    /* background: pink; */
+    backdrop-filter: blur(5px);
+    float: right;
+    width: 100%;
+    z-index: 2;
+}
+nav>ul{
+    display: flex;
+    float: right;
+}
+nav>ul>li{
+    text-decoration: none;
+    margin-right: 20px;
+    list-style: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+nav>ul>li:hover{
+    color: black;
+    font-weight: 600;
+    background: #7AE582;
+    /* border: 2px solid #7AE582; */
+    padding: 5px 10px;
+}
