@@ -1,12 +1,11 @@
 import React from 'react'
 import './App.css'
-import Contact from './components/Contact'
+// import Contact from './components/Contact'
 import Home from './components/Home'
-import Portfolio from './components/Portfolio'
+// import Portfolio from './components/Portfolio'
 import About from './components/About'
-import Subnote from './components/Subnote'
-import {BrowserRouter as Router,
-Switch, Route, Link} from 'react-router-dom'
+// import Subnote from './components/Subnote'
+import {Switch, Route} from 'react-router-dom'
 function App() {
   return (
     <main>

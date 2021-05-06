@@ -1,7 +1,7 @@
 import React from 'react'
 import {Helmet} from 'react-helmet'
 import '../styles/home.css'
-import {Link} from 'react-router-dom'
+// import {Link} from 'react-router-dom'
 import Subnote from './Subnote'
 import Portfolio from './Portfolio'
 import Contact from './Contact'

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, Route } from 'react-router-dom'
+// import { Link, Route } from 'react-router-dom'
 import '../styles/about.css'
 import Navbar from './Navbar'
 import line from '../img/horizontal-line.svg'
