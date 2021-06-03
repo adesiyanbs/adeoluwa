@@ -1,10 +1,10 @@
-import React,{useEffect} from 'react'
+import React from 'react'
 import Navbar from './Navbar'
 import '../styles/contactpage.css'
 import git from '../img/git.png'
 import twitter from '../img/twitter.png'
 import linkedin from '../img/linked2.png'
-import address from '../img/address.png'
+// import address from '../img/address.png'
 // import { useEffect } from 'react'
 function Contactpage() {
   
