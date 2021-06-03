@@ -55,13 +55,13 @@ body{
     float: right;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 608px){
     .sub_container{
         flex-direction: column;
     }
     .left{
         width: 100%;
-        text-align: center;
+        text-align: center; 
     }
     .right{
         width: 100%;

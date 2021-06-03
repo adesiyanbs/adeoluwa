@@ -6,18 +6,18 @@ body{
 }
 
 
-/* nav{
+nav{
     float: right;
     color: white;
     margin-right: 40px;
     margin-top: 10px;
     position: fixed;
     background-color: #0807085e;
-    background: pink;
     backdrop-filter: blur(5px);
     float: right;
     width: 100%;
     z-index: 2;
+    
 }
 nav>ul{
     display: flex;
@@ -36,11 +36,12 @@ nav>ul>li:hover{
     background: #7AE582;
     border: 2px solid #7AE582;
     padding: 5px 10px;
-} */
+}
 .lnd-label{
     color: white;
     /* padding-top: 50px; */
     /* background-color: blue; */
+    margin: auto;
     width: 100%;
     height: auto;
 }
@@ -159,28 +160,37 @@ h3{
         transform: rotate(360deg);
     }
 }
-@media screen and (max-width: 480px){
-    nav{
+@media screen and (max-width: 1023){
+    /* nav{
         float: initial;
-        /* background: blue; */
+        background-color: blue;
         margin: auto;
         width: 60%;
         text-align: center;
-        /* margin-right: initial; */
-    }
-    .label-ctn>h1{
+        margin-right: initial;
+    } */
+    /* .label-ctn>h1{
         font-size: 55px;
+    } */
+    .label-label{
+        background: red;
     }
-    nav{
+    /* nav{
         padding-left: 80px;
-        
-    }
-    nav>ul{
+    } */
+    /* nav>ul{
         justify-content: center;
         align-content: center;
-    }
-    .skills>h4{
+    } */
+    /* .skills>h4{
         margin-left: -10px;
     }
-    
+    #plus{
+        top: 240px;
+    } */
+}
+@media screen and (max-width: 710px){
+    .label-ctn>h1{
+        font-size: 5rem;
+    }
 }

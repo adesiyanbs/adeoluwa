@@ -12,6 +12,7 @@
 .port-container{
     width: 65%;
     height: inherit;
+    /* padding-left: 20px; */
     /* background: red; */
     margin: auto;
     text-align: initial;
@@ -86,12 +87,83 @@
     font-weight: bolder;
 } */
 
-@media screen and (max-width: 480px){
+/* @media screen and (max-width: 480px){
     .port-container{
         grid-template-columns: repeat(1, 1fr);
         margin-left: 1.8rem;
+        width: 95%;
+        
     }
     .port-cards{
         width: 350px;
+        margin-right: initial;
+    }
+} */
+/* @media screen and (width:411px){
+    .port-container{
+        width: 5%;
+    }
+} */
+/* @media screen and ( width:414px){
+    .port-container{
+        width: 90%;
+    }
+    .port-cards{
+        margin-left: 11px;
+    }
+}
+@media screen and (height:731px){
+    .port-container{
+        width: 75%;
+    }
+}
+
+@media screen and (height:854px){
+    .port-container{
+        width: 75%;
+    }
+} */
+
+@media screen and (max-width:1208px){
+    .port-container{
+        width: 80%;
+        /* background: purple; */
+        padding-left: 20px;
+    }
+}
+@media screen and (min-width:1008px) and (max-width: 1023px){
+        .port-container{
+            width: 90%;
+            /* background: yellow; */
+            padding-left: 20px;
+        }
+}
+@media screen and (min-width: 954px) and (max-width: 1007px){
+    .port-container{
+        width: 90%;
+        /* background: brown; */
+        padding-left: 20px;
+    }
+}
+@media screen and (min-width: 608px) and (max-width: 953px){
+    .port-container{
+        width: 90%;
+        /* background: brown; */
+        padding-left: 20px;
+    }
+    .port-cards{
+        width: 90%;
+        margin-right: 30px;
+    }
+}
+@media screen and (max-width: 608px){
+    .port-container{
+        width: 70%;
+        /* background: brown; */
+        padding-left: 20px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .port-cards{
+        width: 90%;
     }
 }

@@ -37,6 +37,7 @@
     filter: invert(81%) sepia(12%) saturate(1619%) hue-rotate(71deg) brightness(97%) contrast(93%);
     animation: move2 .7s infinite linear;
     position: absolute;
+    
 }
 .cnt_text>h1{
     font-size: 60px;
@@ -114,4 +115,18 @@
     100%{
         right: 0;
     }
+}
+@media screen and (max-width: 480px){
+ .rightt>img{
+     visibility: hidden;
+ }
+ .rightt2>img{
+    visibility: hidden;
+}
+.cnt_container{
+    width: 90%;
+}
+.cnt_text>h1{
+    font-size: 50px;
+}
 }
