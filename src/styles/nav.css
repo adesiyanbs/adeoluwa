@@ -24,7 +24,7 @@ nav>ul>a>li{
     transition: 0.4s;
 }
 nav>ul>a>li:hover{
-    color: black;
+    color: #0807085e;
     font-weight: 600;
     background: #7AE582;
     /* border: 2px solid #7AE582; */
